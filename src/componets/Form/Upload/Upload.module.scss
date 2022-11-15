@@ -1,0 +1,38 @@
+.upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 0.5rem 0;
+  font-weight: 600;
+
+  input {
+    padding: 0;
+    display: none;
+  }
+
+  input#file-upload-button {
+    background-color: #1f1f1f;
+  }
+}
+
+.buttonPhoto {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: rgb(226, 226, 226);
+}
+
+.buttonPhoto:hover {
+  background-color: #56bbf1;
+}
+
+.buttonPhoto:active {
+  background-color: #ff5d9e;
+}
+
+@media (prefers-color-scheme: dark) {
+  .buttonPhoto {
+    background-color: #3b3b3b;
+  }
+}

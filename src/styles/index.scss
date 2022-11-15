@@ -1,0 +1,59 @@
+@import './modern-normalize.css';
+
+body {
+  font-weight: 800;
+}
+
+h1{text-align: center;}
+
+input[type='button'] {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  background-color: #3B3B3B;
+  }
+
+input[type='button']:hover {
+  background-color: #56BBF1;
+}
+
+input[type='button']:active {
+  background-color: rgb(21, 155, 28);
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  background-image: url('../assets/background.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.PDFpage {
+  width: 100vw;
+  height: 100vh;
+}
+
+.FormPage {
+  margin-bottom: 2rem;
+}
+
+.PDFViewer {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  border: none;
+  margin: 0;
+}
+
+.back {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: rotate(90deg);
+}
+
